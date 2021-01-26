@@ -1,0 +1,15 @@
+Nome tabella: Auto usate
+
+Id - AUTO_INCREMENT
+Marca- stringa VARCHAR(20) NOTNULL
+Modello- stringa VARCHAR(20) NOTNULL
+Carrozzeria- stringa VARCHAR(20) NULL // utilitaria, sportiva ecc.ecc.
+Descrizione- stringa TEXT NULL
+Km0- booleano- TINYINT NULL // si , no
+immatricolazione- DATE(YYYY-MM-GG) NOTNULL
+Paese- stringa  VARCHAR(20) NULL
+Carburante- stringa VARCHAR(20) NOTNULL
+Chilometraggio- DOUBLE(6,3) NOTNULL // 150,000
+Cambio automatico- TINYINT
+Numero porte- intero- TINYINT NOTNULL
+Potenza-  intero- SMALLINT  NOTNULL
