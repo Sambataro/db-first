@@ -1,6 +1,6 @@
 Nome tabella: Auto usate
 
-Id - AUTO_INCREMENT
+Id - PRIMARY_KEY AUTO_INCREMENT
 Marca- stringa VARCHAR(20) NOTNULL
 Modello- stringa VARCHAR(20) NOTNULL
 Carrozzeria- stringa VARCHAR(20) NULL // utilitaria, sportiva ecc.ecc.
